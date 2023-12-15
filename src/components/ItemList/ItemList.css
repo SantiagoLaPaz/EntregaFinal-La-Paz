@@ -1,0 +1,31 @@
+/* Puedes ajustar los estilos según tus necesidades */
+.ListGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .ListItem {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease-in-out; 
+  }
+  
+  .ListItem:hover {
+    background-color: rgb(255, 240, 200); 
+  }
+  
+  .ListItem h3 {
+    margin-bottom: 10px;
+  }
+  
+  .ListItem p {
+    margin: 0;
+  }
+
+  button {
+    background-color:#868b8d ;
+  }

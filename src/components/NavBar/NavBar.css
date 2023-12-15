@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(250, 227, 185);
+    color: rgb(0, 0, 0);
+  }
+  
+  .left-buttons{
+    display: flex;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #868b8d; 
+    color: rgb(0, 0, 0);
+  }
+  
+  .cart-icon {
+    cursor: pointer;
+  }
+  
