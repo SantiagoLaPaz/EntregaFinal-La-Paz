@@ -8,7 +8,7 @@ const Checkout = () => {
   return (
     <div>
       <h2>Resumen de la compra</h2>
-      {/* Muestra la lista de productos en el carrito */}
+      
       <ul>
         {cart.map((product) => (
           <li key={product.id}>
@@ -18,7 +18,7 @@ const Checkout = () => {
       </ul>
       <p>Total: ${total}</p>
 
-      {/* Renderiza el formulario de pago */}
+      
       <CheckoutForm />
     </div>
   );
